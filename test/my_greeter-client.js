@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var MyGreeter = require('../src/MyGreeter.js');
+var MyGreeter = require('../src/index.js');
 
 it('instance', function() {
     var greeter = new MyGreeter.Client();
